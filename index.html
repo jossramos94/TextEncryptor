@@ -17,24 +17,27 @@
 
     <main>
 
-        <section class="caja-encriptar">        
-            <textarea cols="30" rows="10" id="mensaje" class="input-mensaje" required></textarea> 
+        <div class="caja-encriptar">        
+            <textarea cols="30" rows="10" class="input-mensaje" required>Ingrese el texto aquí</textarea> 
             <P>	&#161; Solo letras minusculas y sin acentos</P>
-            <div class="botones">
-                
+                 <div class="botones">       
                 <button id="encriptar">Encriptar</button>
                 <button id="desencriptar">Desencriptar</button>
-            </div>       
-        </section>
+                </div> 
+        </div>
 
         
-        <section class="caja-desencriptar">
-            <input type="text" id="texto-desencriptado" readonly="readonly">
+        <div class="caja-desencriptar">
+            <textarea cols="30" rows="5" class="texto-desencriptado" readonly="readonly"></textarea>
+            <div class="ocultar">
             <img id="imagen-desencriptar" src="img/Muñeco.png" alt="Imagen desencriptar">
             <h1>Ningun mensaje fue encontrado</h1>
             <p>Ingrese el texto que desee encriptar o desencriptar</p>
+            </div>
             <button id="copiar">Copiar</button>
-        </section>
+
+            
+        </div>
 
     </main>
 
