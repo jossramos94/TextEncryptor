@@ -1,21 +1,15 @@
 body{
     background-color: #E5E5E5;
-    width: 940px;
+    font-family: 'Lucida Sans';
+    margin: 0px 60px;
+    padding: 0px 0px 35px 0px;
+       
 }
+
+/*encabezado*/
 
 header{
-    position: absolute;
-    width: 940px;
-    height: 35px;
     margin: 40px 40px;
-
-}
-
-mai{
-    position: relative;
-    width: 940px;
-    display: inline-block;
-    margin: auto;
 }
 
 #logo{
@@ -25,107 +19,120 @@ mai{
     top:40px;
 }
 
-section {
-    position: relative;
-    display: inline-block;
+/*contenedor Encriptar*/
+
+div{
     width: 40%;
+    height: 100%;
+    display: inline-block;
 }
 
-section .caja-encriptar{
-    position: relative;
-    align-items: right;
-    padding: 15px 15px;
+.caja-encriptar{    
+    padding: 40px 40px;
 }
 
-textarea{
-    position: relative;
-    width: 350px;
-    height: 288px;
-    left: 10px;
-    top: 168px;
-    color: #0A3871;
+.input-mensaje{
+    width: 90%;
+    height: 450px;
+    border: none;
+    background-color: #E5E5E5;
+    text-align: center;
     font-size: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lucida Sans';
+    color: #0A3871;
 }
 
-.caja-encriptar p{
-    position: relative;
-    width: 250px;
-    height: 67px;
-    left: 40px;
-    top: 190px;
-    padding: 0px;
+p{
+    font-family: 'Lucida Sans';
+    padding: 5px 40px;
+    font-size: 10px;
+    
 }
 
 .botones{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-    position: relative;
-    width: 250px;
-    height: 67px;
-    left: 60px;
-    top: 200px;
+    width: 100%;
+    margin-left: 40px;
 }
+
+/*botones*/
+
+#encriptar{
+    padding: 10px 35px;
+    font-family: 'Lucida Sans';
+    border-radius: 10px;
+    background-color: #0A3871;
+    border: none;
+    color: #ffffff;
+}
+
+#desencriptar{
+    padding: 10px 30px;
+    font-family: 'Lucida Sans';
+    border-radius: 10px;
+    background-color: D8DFE8;
+    border: solid 1px #0A3871;
+    color: #0A3871;
+
+}
+
+/*contenedor Desencriptar*/
 
 .caja-desencriptar{
     
+    padding: 0px 40px;
     background-color: #ffffff;
-    border-radius: 10px;
-    margin: 25px auto;
-    width: 400px;
-    height: 944px;
-    padding: 20px;
-    
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.28);    
+}
+
+.texto-desencriptado{
+    border: none;    
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Lucida Sans';
+    color: #0A3871;
+    width: 90%;
+}
+
+/*seccion a ocultar*/
+
+.ocultar{
+    width: 90%;
+    padding: 40px 40px;
 }
 
 #imagen-desencriptar{
     width: 336px;
     height: 304px;
-    top: 283px;
-    position: relative;
-    
+    padding: 0 55px;    
 }
 
-.caja-desencriptar h1{
-    position: relative;
-    width: 336px;
-    height: 58px;
-    top: 325px;
+.ocultar h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 24px;
     text-align: center;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    color: #343A40;
-    
-
-
+    margin: 10px auto;
 }
 
-.caja-desencriptar p{
-    position: relative;
-    width: 336px;
-    height: 48px;
-    top: 325px;
+.ocultar p{
+    font-family: 'Lucida Sans';
+    font-size: 14px;
     text-align: center;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    color: #495057;
-   
+    padding: 10px auto;
 }
+
+/*boton Copiar*/
 
 #copiar{
-    position: relative;
-    width: 336px;
-    height: 67px;
-    top: 400px;
-    border-radius: 24px;
-    padding: 24px;
-    gap: 8px;
-    align-items: center;
-    
+    margin: 80px 50px;
+    padding: 10px 30px;
+    font-family: 'Lucida Sans';
+    border-radius: 10px;
+    background-color: #0A3871;
+    border: none;
+    color: #ffffff;
 }
+
 
 
 
