@@ -35,11 +35,15 @@ div{
     width: 90%;
     height: 450px;
     border: none;
-    background-color: #E5E5E5;
-    text-align: center;
+    background-color: rgba(35, 50, 70, 0.28);
+    text-align: left;
     font-size: 32px;
     font-family: 'Lucida Sans';
     color: #0A3871;
+    border-radius: 10px;
+    outline: none;
+    padding-top: 15px 30px;
+    
 }
 
 p{
@@ -86,12 +90,14 @@ p{
 }
 
 .texto-desencriptado{
-    border: none;    
+    border: transparent;    
     text-align: center;
     font-size: 32px;
     font-family: 'Lucida Sans';
     color: #0A3871;
     width: 90%;
+    outline: none;
+    padding-top: 30px;
 }
 
 /*seccion a ocultar*/
