@@ -10,6 +10,7 @@ body{
 
 header{
     margin: 40px 40px;
+    display: flex;
 }
 
 #logo{
@@ -17,6 +18,23 @@ header{
     height: 48px;
     left:40px;
     top:40px;
+}
+
+.redes{
+    width: 100%;
+    text-align: right;
+    margin-right: 50px;
+}
+
+#linkedin{
+    width: 48px;
+    height: 48px;
+}
+
+#github{
+    width: 48px;
+    height: 48px;
+    padding-right: 10px;
 }
 
 /*contenedor Encriptar*/
