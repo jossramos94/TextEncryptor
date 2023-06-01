@@ -1,8 +1,4 @@
 
-
-//ocument.getElementById("copiar").style.visibility = "hidden";
-//document.getElementById("ocultar").style.visibility = 'visible';
-
 function validarTexto(){
   let textoIngresado = document.querySelector(".input-mensaje").value;
   let validar = textoIngresado.match(/^[a-z]*$/);
